@@ -1,0 +1,19 @@
+{
+    "name": "johnfortes/faixa-cep",
+    "description": "Projeto publico de API das faixas de CEP das cidades brasileiras",
+    "require": {
+        "slim/slim": "^4.13",
+        "slim/psr7": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Johnfortes\\FaixaCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Fortes",
+            "email": "john.fortes01@gmail.com"
+        }
+    ]
+}
