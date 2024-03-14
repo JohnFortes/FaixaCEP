@@ -3,12 +3,16 @@
     "description": "Projeto publico de API das faixas de CEP das cidades brasileiras",
     "require": {
         "slim/slim": "^4.13",
-        "slim/psr7": "^1.6"
+        "slim/psr7": "^1.6",
+        "rain/raintpl": "^3.1"
     },
     "autoload": {
         "psr-4": {
             "Johnfortes\\FaixaCep\\": "src/"
-        }
+        },
+        "files": [
+            "functions.php"
+        ]
     },
     "authors": [
         {
