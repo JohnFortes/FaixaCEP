@@ -4,14 +4,16 @@
     "require": {
         "slim/slim": "^4.13",
         "slim/psr7": "^1.6",
-        "rain/raintpl": "^3.1"
+        "rain/raintpl": "^3.1",
+        "almasaeed2010/adminlte": "^3.2"
     },
     "autoload": {
         "psr-4": {
             "Johnfortes\\FaixaCep\\": "src/"
         },
         "files": [
-            "functions.php"
+            "functions.php",
+            "config.php"
         ]
     },
     "authors": [
